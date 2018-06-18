@@ -7,23 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5747F34420C5D5D60075B0E8 /* NearbyBirdsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F34320C5D5D60075B0E8 /* NearbyBirdsController.swift */; };
+		5747F34720C5D5F80075B0E8 /* LeftMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F34620C5D5F80075B0E8 /* LeftMenuController.swift */; };
+		5747F34920C5D6020075B0E8 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F34820C5D6020075B0E8 /* NavigationController.swift */; };
+		5747F37A20C5D75F0075B0E8 /* LocalizableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F37920C5D75F0075B0E8 /* LocalizableExtension.swift */; };
+		5747F37C20C5D7750075B0E8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5747F37B20C5D7750075B0E8 /* Localizable.strings */; };
+		5747F38020C5DFF00075B0E8 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F37F20C5DFF00075B0E8 /* PaymentController.swift */; };
+		5747F38220C5E02D0075B0E8 /* FreeRidesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F38120C5E02D0075B0E8 /* FreeRidesController.swift */; };
+		5747F38420C5E03F0075B0E8 /* RideHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F38320C5E03F0075B0E8 /* RideHistoryController.swift */; };
+		5747F38620C5EA970075B0E8 /* HowToRideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F38520C5EA970075B0E8 /* HowToRideController.swift */; };
+		5747F38A20C5EAE10075B0E8 /* BRWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F38920C5EAE10075B0E8 /* BRWebController.swift */; };
+		5747F38C20C5EB2D0075B0E8 /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F38B20C5EB2D0075B0E8 /* HelpController.swift */; };
+		5747F38E20C5EB410075B0E8 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F38D20C5EB410075B0E8 /* SettingsController.swift */; };
+		5747F39020C5EB6D0075B0E8 /* BecomeAChargerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F38F20C5EB6D0075B0E8 /* BecomeAChargerController.swift */; };
+		5747F3A720C717E70075B0E8 /* GiveARideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F3A620C717E70075B0E8 /* GiveARideButton.swift */; };
+		5747F3AA20C7182A0075B0E8 /* RideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F3A920C7182A0075B0E8 /* RideButton.swift */; };
+		5747F3AC20C738360075B0E8 /* BRBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F3AB20C738350075B0E8 /* BRBarButtonItem.swift */; };
+		5747F3AE20C763DA0075B0E8 /* LeftMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F3AD20C763DA0075B0E8 /* LeftMenuCell.swift */; };
+		5747F3B220C7AB800075B0E8 /* LeftMenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F3B120C7AB800075B0E8 /* LeftMenuHeader.swift */; };
+		5747F3B620C7C3780075B0E8 /* PaymentHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F3B520C7C3780075B0E8 /* PaymentHeader.swift */; };
+		5747F3B820C7C7110075B0E8 /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F3B720C7C7110075B0E8 /* PaymentCell.swift */; };
+		5759F4A820C83867001AF421 /* HowToRideDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759F4A720C83867001AF421 /* HowToRideDefaultCell.swift */; };
+		5759F4AA20C83879001AF421 /* HowToRideDualPictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759F4A920C83879001AF421 /* HowToRideDualPictureCell.swift */; };
+		5759F4AC20C8388D001AF421 /* HowToRideLocalRulesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759F4AB20C8388D001AF421 /* HowToRideLocalRulesCell.swift */; };
+		5759F4B620C858CD001AF421 /* PaymentSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759F4B520C858CD001AF421 /* PaymentSectionHeader.swift */; };
+		5759F4B820C861F2001AF421 /* AddCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759F4B720C861F2001AF421 /* AddCardController.swift */; };
+		5759F4BB20C86600001AF421 /* FreeRideHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759F4BA20C86600001AF421 /* FreeRideHeaderView.swift */; };
+		5759F4BD20C86C4B001AF421 /* AddCardInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759F4BC20C86C4B001AF421 /* AddCardInputView.swift */; };
+		5759F4BF20C8881B001AF421 /* FreeRideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759F4BE20C8881A001AF421 /* FreeRideButton.swift */; };
+		5759F4C120C88A17001AF421 /* FreeRideFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759F4C020C88A17001AF421 /* FreeRideFooterView.swift */; };
 		575B7B9220C5A81B00C87402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B7B9120C5A81B00C87402 /* AppDelegate.swift */; };
-		575B7B9420C5A81C00C87402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B7B9320C5A81C00C87402 /* ViewController.swift */; };
 		575B7B9720C5A81E00C87402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575B7B9520C5A81E00C87402 /* Main.storyboard */; };
 		575B7B9A20C5A81F00C87402 /* Bird.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 575B7B9820C5A81E00C87402 /* Bird.xcdatamodeld */; };
 		575B7B9C20C5A81F00C87402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575B7B9B20C5A81F00C87402 /* Assets.xcassets */; };
 		575B7B9F20C5A81F00C87402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575B7B9D20C5A81F00C87402 /* LaunchScreen.storyboard */; };
+		575B7BAB20C5D0BE00C87402 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B7BAA20C5D0BE00C87402 /* Constants.swift */; };
+		577E8EE220D231F0008A760C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E8EE120D231EF008A760C /* SettingsView.swift */; };
+		577E8EE420D246BF008A760C /* BecomeAChargerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E8EE320D246BF008A760C /* BecomeAChargerView.swift */; };
+		577E8EE920D24F9D008A760C /* BRTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E8EE820D24F9D008A760C /* BRTextField.swift */; };
+		577E8EED20D2CEE0008A760C /* BRImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E8EEC20D2CEE0008A760C /* BRImagePickerController.swift */; };
+		577E8EEF20D2D03E008A760C /* BRPhotoLibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E8EEE20D2D03D008A760C /* BRPhotoLibraryCell.swift */; };
+		57F6463A20D313ED00B1A0D7 /* ScanABirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F6463920D313ED00B1A0D7 /* ScanABirdController.swift */; };
+		57F6463C20D4292200B1A0D7 /* BRViewFinderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F6463B20D4292100B1A0D7 /* BRViewFinderLayer.swift */; };
+		57F6463E20D466B700B1A0D7 /* BRCodeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F6463D20D466B600B1A0D7 /* BRCodeField.swift */; };
+		57F6464420D47E8E00B1A0D7 /* CardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F6464320D47E8E00B1A0D7 /* CardParser.swift */; };
+		57F6464620D48AC700B1A0D7 /* ScanABirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F6464520D48AC600B1A0D7 /* ScanABirdView.swift */; };
+		AD0B8E482A12CBFCF41646B0 /* Pods_Bird.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8097F37B6E3F7FC69CF7E280 /* Pods_Bird.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5747F34320C5D5D60075B0E8 /* NearbyBirdsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyBirdsController.swift; sourceTree = "<group>"; };
+		5747F34620C5D5F80075B0E8 /* LeftMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuController.swift; sourceTree = "<group>"; };
+		5747F34820C5D6020075B0E8 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		5747F37920C5D75F0075B0E8 /* LocalizableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableExtension.swift; sourceTree = "<group>"; };
+		5747F37B20C5D7750075B0E8 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5747F37F20C5DFF00075B0E8 /* PaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
+		5747F38120C5E02D0075B0E8 /* FreeRidesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeRidesController.swift; sourceTree = "<group>"; };
+		5747F38320C5E03F0075B0E8 /* RideHistoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideHistoryController.swift; sourceTree = "<group>"; };
+		5747F38520C5EA970075B0E8 /* HowToRideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToRideController.swift; sourceTree = "<group>"; };
+		5747F38920C5EAE10075B0E8 /* BRWebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRWebController.swift; sourceTree = "<group>"; };
+		5747F38B20C5EB2D0075B0E8 /* HelpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
+		5747F38D20C5EB410075B0E8 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		5747F38F20C5EB6D0075B0E8 /* BecomeAChargerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BecomeAChargerController.swift; sourceTree = "<group>"; };
+		5747F3A620C717E70075B0E8 /* GiveARideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiveARideButton.swift; sourceTree = "<group>"; };
+		5747F3A920C7182A0075B0E8 /* RideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideButton.swift; sourceTree = "<group>"; };
+		5747F3AB20C738350075B0E8 /* BRBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBarButtonItem.swift; sourceTree = "<group>"; };
+		5747F3AD20C763DA0075B0E8 /* LeftMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuCell.swift; sourceTree = "<group>"; };
+		5747F3B120C7AB800075B0E8 /* LeftMenuHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuHeader.swift; sourceTree = "<group>"; };
+		5747F3B520C7C3780075B0E8 /* PaymentHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentHeader.swift; sourceTree = "<group>"; };
+		5747F3B720C7C7110075B0E8 /* PaymentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		5759F4A720C83867001AF421 /* HowToRideDefaultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToRideDefaultCell.swift; sourceTree = "<group>"; };
+		5759F4A920C83879001AF421 /* HowToRideDualPictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToRideDualPictureCell.swift; sourceTree = "<group>"; };
+		5759F4AB20C8388D001AF421 /* HowToRideLocalRulesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToRideLocalRulesCell.swift; sourceTree = "<group>"; };
+		5759F4B520C858CD001AF421 /* PaymentSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSectionHeader.swift; sourceTree = "<group>"; };
+		5759F4B720C861F2001AF421 /* AddCardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardController.swift; sourceTree = "<group>"; };
+		5759F4BA20C86600001AF421 /* FreeRideHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeRideHeaderView.swift; sourceTree = "<group>"; };
+		5759F4BC20C86C4B001AF421 /* AddCardInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardInputView.swift; sourceTree = "<group>"; };
+		5759F4BE20C8881A001AF421 /* FreeRideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeRideButton.swift; sourceTree = "<group>"; };
+		5759F4C020C88A17001AF421 /* FreeRideFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeRideFooterView.swift; sourceTree = "<group>"; };
 		575B7B8E20C5A81A00C87402 /* Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		575B7B9120C5A81B00C87402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		575B7B9320C5A81C00C87402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		575B7B9620C5A81E00C87402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		575B7B9920C5A81E00C87402 /* Bird.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bird.xcdatamodel; sourceTree = "<group>"; };
 		575B7B9B20C5A81F00C87402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		575B7B9E20C5A81F00C87402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		575B7BA020C5A81F00C87402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575B7BAA20C5D0BE00C87402 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		577E8EE120D231EF008A760C /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		577E8EE320D246BF008A760C /* BecomeAChargerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BecomeAChargerView.swift; sourceTree = "<group>"; };
+		577E8EE820D24F9D008A760C /* BRTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRTextField.swift; sourceTree = "<group>"; };
+		577E8EEC20D2CEE0008A760C /* BRImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRImagePickerController.swift; sourceTree = "<group>"; };
+		577E8EEE20D2D03D008A760C /* BRPhotoLibraryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRPhotoLibraryCell.swift; sourceTree = "<group>"; };
+		57F6463920D313ED00B1A0D7 /* ScanABirdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanABirdController.swift; sourceTree = "<group>"; };
+		57F6463B20D4292100B1A0D7 /* BRViewFinderLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRViewFinderLayer.swift; sourceTree = "<group>"; };
+		57F6463D20D466B600B1A0D7 /* BRCodeField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRCodeField.swift; sourceTree = "<group>"; };
+		57F6464320D47E8E00B1A0D7 /* CardParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardParser.swift; sourceTree = "<group>"; };
+		57F6464520D48AC600B1A0D7 /* ScanABirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanABirdView.swift; sourceTree = "<group>"; };
+		73FCDFE7401F5F19B81F582F /* Pods-Bird.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bird.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bird/Pods-Bird.debug.xcconfig"; sourceTree = "<group>"; };
+		8097F37B6E3F7FC69CF7E280 /* Pods_Bird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFD92AA17C79A56F93B4D94 /* Pods-Bird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bird.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bird/Pods-Bird.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +113,208 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0B8E482A12CBFCF41646B0 /* Pods_Bird.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		563E340D46130A8E25222383 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73FCDFE7401F5F19B81F582F /* Pods-Bird.debug.xcconfig */,
+				BEFD92AA17C79A56F93B4D94 /* Pods-Bird.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5747F34520C5D5E80075B0E8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5747F34620C5D5F80075B0E8 /* LeftMenuController.swift */,
+				5747F34820C5D6020075B0E8 /* NavigationController.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		5747F37D20C5D7790075B0E8 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				5747F37B20C5D7750075B0E8 /* Localizable.strings */,
+				5747F37920C5D75F0075B0E8 /* LocalizableExtension.swift */,
+			);
+			name = Strings;
+			sourceTree = "<group>";
+		};
+		5747F37E20C5D78A0075B0E8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				575B7B9820C5A81E00C87402 /* Bird.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		5747F38720C5EAAB0075B0E8 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				57F6463920D313ED00B1A0D7 /* ScanABirdController.swift */,
+				5747F38920C5EAE10075B0E8 /* BRWebController.swift */,
+				577E8EEC20D2CEE0008A760C /* BRImagePickerController.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		5747F38820C5EAB30075B0E8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5759F4AE20C85814001AF421 /* NearbyBird */,
+				5759F4AD20C85807001AF421 /* Payment */,
+				5759F4AF20C8582A001AF421 /* FreeRides */,
+				5759F4B020C85839001AF421 /* RideHistory */,
+				5759F4B120C85845001AF421 /* HowToRide */,
+				5759F4B220C8584D001AF421 /* Help */,
+				5759F4B320C85857001AF421 /* Settings */,
+				5759F4B420C8587B001AF421 /* BecomeACharger */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		5747F3A520C717C00075B0E8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5747F3B120C7AB800075B0E8 /* LeftMenuHeader.swift */,
+				5747F3AD20C763DA0075B0E8 /* LeftMenuCell.swift */,
+				5747F3A620C717E70075B0E8 /* GiveARideButton.swift */,
+				5747F3AB20C738350075B0E8 /* BRBarButtonItem.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		5747F3A820C718150075B0E8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5747F3B320C7C3200075B0E8 /* NearbyBird */,
+				5747F3B420C7C3380075B0E8 /* Payment */,
+				5759F4B920C865B3001AF421 /* FreeRides */,
+				5759F4A420C83837001AF421 /* HowToRide */,
+				577E8EE620D24A4F008A760C /* Settings */,
+				577E8EE720D24A56008A760C /* BecomeACharger */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		5747F3B320C7C3200075B0E8 /* NearbyBird */ = {
+			isa = PBXGroup;
+			children = (
+				5747F3A920C7182A0075B0E8 /* RideButton.swift */,
+			);
+			name = NearbyBird;
+			sourceTree = "<group>";
+		};
+		5747F3B420C7C3380075B0E8 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				5747F3B520C7C3780075B0E8 /* PaymentHeader.swift */,
+				5747F3B720C7C7110075B0E8 /* PaymentCell.swift */,
+				5759F4B520C858CD001AF421 /* PaymentSectionHeader.swift */,
+				5759F4BC20C86C4B001AF421 /* AddCardInputView.swift */,
+			);
+			name = Payment;
+			sourceTree = "<group>";
+		};
+		5759F4A420C83837001AF421 /* HowToRide */ = {
+			isa = PBXGroup;
+			children = (
+				5759F4A720C83867001AF421 /* HowToRideDefaultCell.swift */,
+				5759F4A920C83879001AF421 /* HowToRideDualPictureCell.swift */,
+				5759F4AB20C8388D001AF421 /* HowToRideLocalRulesCell.swift */,
+			);
+			name = HowToRide;
+			sourceTree = "<group>";
+		};
+		5759F4AD20C85807001AF421 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				5747F37F20C5DFF00075B0E8 /* PaymentController.swift */,
+				5759F4B720C861F2001AF421 /* AddCardController.swift */,
+			);
+			name = Payment;
+			sourceTree = "<group>";
+		};
+		5759F4AE20C85814001AF421 /* NearbyBird */ = {
+			isa = PBXGroup;
+			children = (
+				5747F34320C5D5D60075B0E8 /* NearbyBirdsController.swift */,
+			);
+			name = NearbyBird;
+			sourceTree = "<group>";
+		};
+		5759F4AF20C8582A001AF421 /* FreeRides */ = {
+			isa = PBXGroup;
+			children = (
+				5747F38120C5E02D0075B0E8 /* FreeRidesController.swift */,
+			);
+			name = FreeRides;
+			sourceTree = "<group>";
+		};
+		5759F4B020C85839001AF421 /* RideHistory */ = {
+			isa = PBXGroup;
+			children = (
+				5747F38320C5E03F0075B0E8 /* RideHistoryController.swift */,
+			);
+			name = RideHistory;
+			sourceTree = "<group>";
+		};
+		5759F4B120C85845001AF421 /* HowToRide */ = {
+			isa = PBXGroup;
+			children = (
+				5747F38520C5EA970075B0E8 /* HowToRideController.swift */,
+			);
+			name = HowToRide;
+			sourceTree = "<group>";
+		};
+		5759F4B220C8584D001AF421 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				5747F38B20C5EB2D0075B0E8 /* HelpController.swift */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		5759F4B320C85857001AF421 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5747F38D20C5EB410075B0E8 /* SettingsController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		5759F4B420C8587B001AF421 /* BecomeACharger */ = {
+			isa = PBXGroup;
+			children = (
+				5747F38F20C5EB6D0075B0E8 /* BecomeAChargerController.swift */,
+			);
+			name = BecomeACharger;
+			sourceTree = "<group>";
+		};
+		5759F4B920C865B3001AF421 /* FreeRides */ = {
+			isa = PBXGroup;
+			children = (
+				5759F4BA20C86600001AF421 /* FreeRideHeaderView.swift */,
+				5759F4C020C88A17001AF421 /* FreeRideFooterView.swift */,
+				5759F4BE20C8881A001AF421 /* FreeRideButton.swift */,
+			);
+			name = FreeRides;
+			sourceTree = "<group>";
+		};
 		575B7B8520C5A81500C87402 = {
 			isa = PBXGroup;
 			children = (
 				575B7B9020C5A81B00C87402 /* Bird */,
 				575B7B8F20C5A81A00C87402 /* Products */,
+				563E340D46130A8E25222383 /* Pods */,
+				FFD8950EA64780804A7B8EBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +330,98 @@
 			isa = PBXGroup;
 			children = (
 				575B7B9120C5A81B00C87402 /* AppDelegate.swift */,
-				575B7B9320C5A81C00C87402 /* ViewController.swift */,
+				575B7BA620C5D06800C87402 /* Constants */,
+				575B7BA720C5D07A00C87402 /* Controllers */,
+				575B7BA920C5D09500C87402 /* View */,
+				575B7BA820C5D07F00C87402 /* Model */,
 				575B7B9520C5A81E00C87402 /* Main.storyboard */,
 				575B7B9B20C5A81F00C87402 /* Assets.xcassets */,
 				575B7B9D20C5A81F00C87402 /* LaunchScreen.storyboard */,
 				575B7BA020C5A81F00C87402 /* Info.plist */,
-				575B7B9820C5A81E00C87402 /* Bird.xcdatamodeld */,
 			);
 			path = Bird;
+			sourceTree = "<group>";
+		};
+		575B7BA620C5D06800C87402 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				575B7BAA20C5D0BE00C87402 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		575B7BA720C5D07A00C87402 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5747F34520C5D5E80075B0E8 /* Navigation */,
+				5747F38820C5EAB30075B0E8 /* Menu */,
+				5747F38720C5EAAB0075B0E8 /* General */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		575B7BA820C5D07F00C87402 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57F6464220D47E7E00B1A0D7 /* Validation */,
+				5747F37E20C5D78A0075B0E8 /* CoreData */,
+				5747F37D20C5D7790075B0E8 /* Strings */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		575B7BA920C5D09500C87402 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5747F3A520C717C00075B0E8 /* Navigation */,
+				5747F3A820C718150075B0E8 /* Menu */,
+				577E8EE520D24A47008A760C /* General */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		577E8EE520D24A47008A760C /* General */ = {
+			isa = PBXGroup;
+			children = (
+				577E8EE820D24F9D008A760C /* BRTextField.swift */,
+				57F6463D20D466B600B1A0D7 /* BRCodeField.swift */,
+				577E8EEE20D2D03D008A760C /* BRPhotoLibraryCell.swift */,
+				57F6463B20D4292100B1A0D7 /* BRViewFinderLayer.swift */,
+				57F6464520D48AC600B1A0D7 /* ScanABirdView.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		577E8EE620D24A4F008A760C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				577E8EE120D231EF008A760C /* SettingsView.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		577E8EE720D24A56008A760C /* BecomeACharger */ = {
+			isa = PBXGroup;
+			children = (
+				577E8EE320D246BF008A760C /* BecomeAChargerView.swift */,
+			);
+			name = BecomeACharger;
+			sourceTree = "<group>";
+		};
+		57F6464220D47E7E00B1A0D7 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				57F6464320D47E8E00B1A0D7 /* CardParser.swift */,
+			);
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		FFD8950EA64780804A7B8EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8097F37B6E3F7FC69CF7E280 /* Pods_Bird.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +431,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 575B7BA320C5A82000C87402 /* Build configuration list for PBXNativeTarget "Bird" */;
 			buildPhases = (
+				1D81AA7E5AAD1FAA7D291750 /* [CP] Check Pods Manifest.lock */,
 				575B7B8A20C5A81A00C87402 /* Sources */,
 				575B7B8B20C5A81A00C87402 /* Frameworks */,
 				575B7B8C20C5A81A00C87402 /* Resources */,
+				5815FCBDCA73BE27D1178164 /* [CP] Embed Pods Frameworks */,
+				F01C1C3DF64638D65B13E088 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				575B7B9F20C5A81F00C87402 /* LaunchScreen.storyboard in Resources */,
+				5747F37C20C5D7750075B0E8 /* Localizable.strings in Resources */,
 				575B7B9C20C5A81F00C87402 /* Assets.xcassets in Resources */,
 				575B7B9720C5A81E00C87402 /* Main.storyboard in Resources */,
 			);
@@ -135,14 +496,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D81AA7E5AAD1FAA7D291750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bird-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5815FCBDCA73BE27D1178164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bird/Pods-Bird-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NJKWebViewProgress/NJKWebViewProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJKWebViewProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bird/Pods-Bird-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01C1C3DF64638D65B13E088 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bird/Pods-Bird-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		575B7B8A20C5A81A00C87402 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577E8EE220D231F0008A760C /* SettingsView.swift in Sources */,
+				5759F4B620C858CD001AF421 /* PaymentSectionHeader.swift in Sources */,
+				57F6464420D47E8E00B1A0D7 /* CardParser.swift in Sources */,
 				575B7B9A20C5A81F00C87402 /* Bird.xcdatamodeld in Sources */,
-				575B7B9420C5A81C00C87402 /* ViewController.swift in Sources */,
+				57F6464620D48AC700B1A0D7 /* ScanABirdView.swift in Sources */,
+				5747F34920C5D6020075B0E8 /* NavigationController.swift in Sources */,
 				575B7B9220C5A81B00C87402 /* AppDelegate.swift in Sources */,
+				5747F3B620C7C3780075B0E8 /* PaymentHeader.swift in Sources */,
+				5747F3AC20C738360075B0E8 /* BRBarButtonItem.swift in Sources */,
+				5747F38C20C5EB2D0075B0E8 /* HelpController.swift in Sources */,
+				5759F4AA20C83879001AF421 /* HowToRideDualPictureCell.swift in Sources */,
+				575B7BAB20C5D0BE00C87402 /* Constants.swift in Sources */,
+				5759F4BF20C8881B001AF421 /* FreeRideButton.swift in Sources */,
+				5759F4B820C861F2001AF421 /* AddCardController.swift in Sources */,
+				5759F4BB20C86600001AF421 /* FreeRideHeaderView.swift in Sources */,
+				5747F3B220C7AB800075B0E8 /* LeftMenuHeader.swift in Sources */,
+				57F6463A20D313ED00B1A0D7 /* ScanABirdController.swift in Sources */,
+				577E8EE920D24F9D008A760C /* BRTextField.swift in Sources */,
+				57F6463E20D466B700B1A0D7 /* BRCodeField.swift in Sources */,
+				5747F38020C5DFF00075B0E8 /* PaymentController.swift in Sources */,
+				5747F39020C5EB6D0075B0E8 /* BecomeAChargerController.swift in Sources */,
+				5747F3B820C7C7110075B0E8 /* PaymentCell.swift in Sources */,
+				5747F38620C5EA970075B0E8 /* HowToRideController.swift in Sources */,
+				5747F34720C5D5F80075B0E8 /* LeftMenuController.swift in Sources */,
+				5747F37A20C5D75F0075B0E8 /* LocalizableExtension.swift in Sources */,
+				5747F38220C5E02D0075B0E8 /* FreeRidesController.swift in Sources */,
+				577E8EE420D246BF008A760C /* BecomeAChargerView.swift in Sources */,
+				57F6463C20D4292200B1A0D7 /* BRViewFinderLayer.swift in Sources */,
+				5747F38E20C5EB410075B0E8 /* SettingsController.swift in Sources */,
+				5747F38A20C5EAE10075B0E8 /* BRWebController.swift in Sources */,
+				5747F38420C5E03F0075B0E8 /* RideHistoryController.swift in Sources */,
+				5759F4A820C83867001AF421 /* HowToRideDefaultCell.swift in Sources */,
+				5747F3A720C717E70075B0E8 /* GiveARideButton.swift in Sources */,
+				5747F3AA20C7182A0075B0E8 /* RideButton.swift in Sources */,
+				5747F3AE20C763DA0075B0E8 /* LeftMenuCell.swift in Sources */,
+				5747F34420C5D5D60075B0E8 /* NearbyBirdsController.swift in Sources */,
+				5759F4C120C88A17001AF421 /* FreeRideFooterView.swift in Sources */,
+				577E8EEF20D2D03E008A760C /* BRPhotoLibraryCell.swift in Sources */,
+				5759F4AC20C8388D001AF421 /* HowToRideLocalRulesCell.swift in Sources */,
+				5759F4BD20C86C4B001AF421 /* AddCardInputView.swift in Sources */,
+				577E8EED20D2CEE0008A760C /* BRImagePickerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +720,7 @@
 		};
 		575B7BA420C5A82000C87402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FCDFE7401F5F19B81F582F /* Pods-Bird.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3W4TPJ555T;
@@ -269,11 +729,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SynergyLabs.com.Bird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		575B7BA520C5A82000C87402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFD92AA17C79A56F93B4D94 /* Pods-Bird.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3W4TPJ555T;
@@ -282,6 +744,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SynergyLabs.com.Bird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -304,6 +767,7 @@
 				575B7BA520C5A82000C87402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

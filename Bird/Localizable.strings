@@ -1,0 +1,112 @@
+/* 
+  Localizable.strings
+  Bird
+
+  Created by Justin Wells on 6/4/18.
+  Copyright © 2018 SynergyLabs. All rights reserved.
+*/
+
+//Left Menu
+"payment" = "Payment";
+"freeRides" = "Free Rides";
+"rideHistory" = "Ride History";
+"howToRide" = "How to Ride";
+"safety" = "Safety";
+"help" = "Help";
+"settings" = "Settings";
+"becomeACharger" = "Become a Charger";
+"giveARideGetARide" = "Give a Ride\n Get a Ride";
+
+//Nearby Birds
+"nearbyBirds" = "Nearby Birds";
+"ride" = "Ride";
+
+//Scan A Bird
+"scanABird" = "Scan A Bird";
+"code" = "Code";
+"codeButtonTitle" = "abc1";
+
+//Payment
+"payment" = "Payment";
+"done" = "Done";
+"paymentHeaderTitle" = "Only $1 to get started";
+"paymentHeaderSubTitle" = "plus $0.15/minute";
+"addPaymentMethod" = "Add Payment Method";
+"enterCreditCard" = "Enter Credit Card";
+"snapCreditCard" = "Snap Credit Card";
+"enterCode" = "Enter Code";
+"enterPromoCode" = "Enter Promo Code";
+"promoCode" = "Promo Code";
+"cancel" = "Cancel";
+"enter" = "Enter";
+"addCard" = "Add Card";
+"addCardPlaceholder" = "4242 4242 4242 4242";
+
+//Free Rides
+"freeRides" = "Free Rides";
+"freeRideDescriptionLabel" = "Give a free ride and get a free ride when each friend takes their first ride (up to $5 each)";
+"sendFreeRides" = "Send Free Rides";
+"sendFreeRideMessage" = "Sign up with Bird and use code OMEOKJ to get a free ride! https://gift.bird.co/uBJKDglrxN";
+
+//Ride History
+"rideHistory" = "Ride History";
+
+//How To Ride
+"next" = "Next";
+"readyToGo" = "Ready To Go!";
+"findAndUnlock" = "Find & Unlock";
+"findAndUnlockSubTitle" = "Find a Bird near you and tap the button to unlock.";
+"safeRiding" = "Safe Riding";
+"safeRidingSubTitle" = "Bring your own helmet to stay safe while you ride. Required by law.";
+"startTheBird" = "Start the Bird";
+"startTheBirdSubTitle1" = "Kick start three times";
+"startTheBirdSubTitle2" = "then push throttle button with right thumb";
+"footPlacement" = "Foot Placement";
+"footPlacementSubTitle" = "Place both feet on footboard while riding";
+"whereToRide" = "Where to Ride";
+"whereToRideSubTitle" = "Ride in bike lanes when available. Do not ride on sidewalks.";
+"brakes" = "Brakes";
+"brakesSubTitle" = "Squeeze brakes with left hand to slow down.";
+"parking" = "Parking";
+"parkingSubTitle1" = "Don't block public pathways.";
+"parkingSubTitle2" = "Park by bike racks when available.";
+"endingYourRide" = "Ending Your Ride";
+"endingYourRideSubTitle" = "End your ride by locking the Bird within the app.";
+"localRules" = "Local Rules";
+"localRulesSubTitle" = "Local traffic regulations prohibit the following:\n\n• Riding on sidewalks\n\n• Riding in public parking structures\n\n• Riding without a helmet\n\n• Riding without a valid driver's license\n\n• Clinging to moving vehicles";
+
+//Safety
+"safetyURL" = "https://www.bird.co/safety";
+
+//Help
+"help" = "Help";
+
+//Settings
+"settings" = "Settings";
+"save" = "Save";
+"name" = "Name";
+"email" = "Email";
+"phone" = "Phone";
+"verifyEmail" = "Verify Email";
+"logout" = "Log Out";
+
+//Become A Charger
+"becomeACharger" = "Become a Charger";
+"shippingAddressTitle" = "Shipping Address";
+"shippingAddressSubTitle" = "Please enter your Shipping Address so we can send you Power Supplies.";
+"firstName" = "First Name";
+"lastName" = "Last Name";
+"address" = "Address";
+"aptNumber" = "Apt #";
+"city" = "City";
+"state" = "State";
+"zipCode" = "Zip Code";
+"step1of6" = "Step 1 of 6";
+
+//Image Picker
+"photos" = "Photos";
+
+//Feature Unavailable
+"sorry" = "Sorry";
+"featureUnavailableMessage" = "This feature is unavailable";
+"ok" = "OK";

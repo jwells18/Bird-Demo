@@ -7,16 +7,24 @@
 //
 
 import UIKit
+import Reachability
 import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let reachability = Reachability()!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //Change Status Bar to white style
+        application.statusBarStyle = .lightContent
+        
+        //Set Main Controller
+        let mainVC = NavigationController(rootViewController: NearbyBirdsController())
+        self.window?.rootViewController = mainVC
+        
         return true
     }
 
